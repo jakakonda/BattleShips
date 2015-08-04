@@ -133,7 +133,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BattleShips.Agents.ChunkNorrisPlayer\BattleShips.Agents.RandomPlayer.csproj">
+    <ProjectReference Include="..\BattleShips.Agents.RandomPlayer\BattleShips.Agents.RandomPlayer.csproj">
       <Project>{24dcca3f-f178-49cb-972c-3afe03fd2b9e}</Project>
       <Name>BattleShips.Agents.RandomPlayer</Name>
     </ProjectReference>

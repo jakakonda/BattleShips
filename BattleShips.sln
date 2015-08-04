@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Library", "Batt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Engine", "BattleShips.Engine\BattleShips.Engine.csproj", "{318EEBA2-6D8F-4E9B-949A-E6AF4C297434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Agents.RandomPlayer", "BattleShips.Agents.ChunkNorrisPlayer\BattleShips.Agents.RandomPlayer.csproj", "{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Agents.RandomPlayer", "BattleShips.Agents.RandomPlayer\BattleShips.Agents.RandomPlayer.csproj", "{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
