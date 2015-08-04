@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Library", "BattleShips.Library\BattleShips.Library.csproj", "{3E8937A1-7691-4DEB-86AA-E0711AB018AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Engine", "BattleShips.Engine\BattleShips.Engine.csproj", "{318EEBA2-6D8F-4E9B-949A-E6AF4C297434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Agents.RandomPlayer", "BattleShips.Agents.ChunkNorrisPlayer\BattleShips.Agents.RandomPlayer.csproj", "{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E8937A1-7691-4DEB-86AA-E0711AB018AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8937A1-7691-4DEB-86AA-E0711AB018AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8937A1-7691-4DEB-86AA-E0711AB018AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8937A1-7691-4DEB-86AA-E0711AB018AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318EEBA2-6D8F-4E9B-949A-E6AF4C297434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318EEBA2-6D8F-4E9B-949A-E6AF4C297434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318EEBA2-6D8F-4E9B-949A-E6AF4C297434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318EEBA2-6D8F-4E9B-949A-E6AF4C297434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
