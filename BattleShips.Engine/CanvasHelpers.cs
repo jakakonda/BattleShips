@@ -61,12 +61,14 @@ namespace BattleShips.Engine
 
         public static void DrawMiss(this Canvas canvas, double x1, double y1, double x2, double y2)
         {
+            var diff = Math.Abs(x1 - x2) * 0.2;
+
             var line1 = new Line
             {
-                X1 = x1,
-                Y1 = y1,
-                X2 = x2,
-                Y2 = y2,
+                X1 = x1 + diff,
+                Y1 = y1 + diff,
+                X2 = x2 - diff,
+                Y2 = y2 - diff,
                 StrokeThickness = 3,
                 Stroke = new SolidColorBrush(Colors.White)
             };
@@ -75,10 +77,10 @@ namespace BattleShips.Engine
 
             var line2 = new Line
             {
-                X1 = x2,
-                Y1 = y1,
-                X2 = x1,
-                Y2 = y2,
+                X1 = x2 - diff,
+                Y1 = y1 + diff,
+                X2 = x1 + diff,
+                Y2 = y2 - diff,
                 StrokeThickness = 3,
                 Stroke = new SolidColorBrush(Colors.White)
             };
