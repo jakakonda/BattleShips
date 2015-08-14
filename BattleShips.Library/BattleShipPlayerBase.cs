@@ -15,6 +15,23 @@ namespace BattleShips.Library
             Height = boardHeight;
             Width = boardWidth;
 
+            //var ship = new Ship
+            //{
+            //    Direction = Direction.Vertical,
+            //    Length = 3,
+            //    Location = new Point(0, 0)
+            //};
+
+            //var newShip = new Ship
+            //{
+            //    Direction = Direction.Vertical,
+            //    Length = 3,
+            //    Location = new Point(0, 3)
+            //};
+
+            //Console.WriteLine(ship.Neighbour(newShip));
+
+
             var ships = new List<Ship>();
 
             for (int i = 0; i < sizes.Count; i++)
@@ -31,11 +48,12 @@ namespace BattleShips.Library
 
                 // Check that it doesn't overlap with any other
                 bool ok = ships.All(ship => !ship.Overlaps(newShip));
+                ok = ok && ships.All(ship => !ship.Neighbour(newShip));
 
                 // Do not advance to next ship, 
                 // repeat the same one next iteration 
-                if (!ok || 
-                    newShip.EndPoint.X > boardWidth || 
+                if (!ok ||
+                    newShip.EndPoint.X > boardWidth ||
                     newShip.EndPoint.Y >= boardHeight)
                     i--;
                 else
