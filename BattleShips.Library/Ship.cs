@@ -23,6 +23,7 @@ namespace BattleShips.Library
             {
                 var x = Direction == Direction.Horizontal ? Length - 1  : 0;
                 var y = Direction == Direction.Vertical ? Length - 1 : 0;
+
                 return new Point(Location.X + x, Location.Y + y);
             }
         }

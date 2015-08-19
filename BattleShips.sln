@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Engine", "Battl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips.Agents.RandomPlayer", "BattleShips.Agents.RandomPlayer\BattleShips.Agents.RandomPlayer.csproj", "{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MojIgralec", "MojIgralec\MojIgralec.csproj", "{961DEDE6-DE1C-4793-8458-173731517425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24DCCA3F-F178-49CB-972C-3AFE03FD2B9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961DEDE6-DE1C-4793-8458-173731517425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961DEDE6-DE1C-4793-8458-173731517425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961DEDE6-DE1C-4793-8458-173731517425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961DEDE6-DE1C-4793-8458-173731517425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

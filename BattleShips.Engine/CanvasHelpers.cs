@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Windows.Controls;
-using System.Windows.Ink;
 using System.Windows.Media;
 using System.Windows.Shapes;
-using BattleShips.Library;
 
 namespace BattleShips.Engine
 {
